@@ -1,0 +1,1 @@
+room_goto(rm_training_very_hard);
