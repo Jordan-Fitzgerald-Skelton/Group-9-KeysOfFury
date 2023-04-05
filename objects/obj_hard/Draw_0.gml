@@ -33,6 +33,6 @@ if(!gameOver){
 	draw_set_color(c_black);
 	//this text is displayed when the user runs out of time
 	draw_text_transformed(room_width / 2, room_height / 4, "GAME OVER!", 1, 1, 1);
-	draw_text_transformed(room_width / 2, room_height / 4+25,  "Press SPACE to return to the singleplayer menu", 1, 1, 1);
+	draw_text_transformed(room_width / 2, room_height / 4 + 25, "POINTS =" + string(points), 1, 1, 1);
 	draw_text_transformed(room_width / 2, room_height / 4+50, "Press ESC to return to the main menu", 1, 1, 1);
 }

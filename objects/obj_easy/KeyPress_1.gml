@@ -19,6 +19,7 @@ if(keyboard_lastkey == vk_escape){
 
 	//resets the letter that is checked and the time the user has 
 }else{
+	global.canPlayershoot = false;
 	global.canEnemyShoot = true;
 	audio_play_sound(sound_error, 1, false);
 	correct = false;
@@ -26,7 +27,7 @@ if(keyboard_lastkey == vk_escape){
 	index = 0;
 	time--;
 	//ends the game
-	if(time == 0 ){
+	if(time == 0 ) {
 		gameOver = true;
 		global.canEnemyShoot = false;
 		global.OVERR = true
