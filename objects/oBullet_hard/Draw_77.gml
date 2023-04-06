@@ -1,1 +1,1 @@
-if (place_meeting(x, y, obj_Enemy)) instance_destroy();
+if (place_meeting(x, y, obj_Enemy_hard)) instance_destroy();

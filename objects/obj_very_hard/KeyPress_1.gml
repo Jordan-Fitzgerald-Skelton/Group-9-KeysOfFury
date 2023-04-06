@@ -27,7 +27,7 @@ if(keyboard_lastkey == vk_escape){
 	index = 0;
 	time--;
 	//ends the game
-	if(time == 0){
+	if(time == 0 || global.death = true){
 		gameOver = true;
 		global.canEnemyShoot = false;
 		global.OVERR = true

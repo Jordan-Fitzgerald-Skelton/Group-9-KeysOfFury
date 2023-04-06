@@ -1,5 +1,5 @@
 with (other){
-	hp = hp -1;
+	hp = hp -3;
 	flash = 3;
 }
 instance_destroy();

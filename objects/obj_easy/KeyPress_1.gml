@@ -14,7 +14,7 @@ if(keyboard_lastkey == vk_escape){
 		loading = true;
 		points+=10;
 		alarm[0] = room_speed * 1;
-		time = 10;
+		time = 20;
 	}
 
 	//resets the letter that is checked and the time the user has 
@@ -27,7 +27,7 @@ if(keyboard_lastkey == vk_escape){
 	index = 0;
 	time--;
 	//ends the game
-	if(time == 0 ) {
+	if(time == 0 || global.death = true) {
 		gameOver = true;
 		global.canEnemyShoot = false;
 		global.OVERR = true

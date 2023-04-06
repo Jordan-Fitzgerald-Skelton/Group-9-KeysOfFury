@@ -1,4 +1,4 @@
-hp = 50;
+hp = 100;
 maxhp = hp;
 flash = 0;
 healthbar_width = 24;
