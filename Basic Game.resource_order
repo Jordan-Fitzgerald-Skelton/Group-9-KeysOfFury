@@ -76,6 +76,7 @@
     {"name":"spr_ENKar","order":3,"path":"sprites/spr_ENKar/spr_ENKar.yy",},
     {"name":"obj_very_hard","order":13,"path":"objects/obj_very_hard/obj_very_hard.yy",},
     {"name":"oEnGun","order":2,"path":"objects/oEnGun/oEnGun.yy",},
+    {"name":"t_","order":15,"path":"sprites/t_/t_.yy",},
     {"name":"rm_training_very_hard","order":4,"path":"rooms/rm_training_very_hard/rm_training_very_hard.yy",},
     {"name":"spr_training","order":3,"path":"sprites/spr_training/spr_training.yy",},
     {"name":"rm_main_menu","order":2,"path":"rooms/rm_main_menu/rm_main_menu.yy",},

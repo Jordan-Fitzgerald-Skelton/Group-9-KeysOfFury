@@ -114,6 +114,7 @@
     {"id":{"name":"spr_character","path":"sprites/spr_character/spr_character.yy",},},
     {"id":{"name":"obj_very_hard","path":"objects/obj_very_hard/obj_very_hard.yy",},},
     {"id":{"name":"oEnGun","path":"objects/oEnGun/oEnGun.yy",},},
+    {"id":{"name":"t_","path":"sprites/t_/t_.yy",},},
     {"id":{"name":"rm_training_very_hard","path":"rooms/rm_training_very_hard/rm_training_very_hard.yy",},},
     {"id":{"name":"spr_training","path":"sprites/spr_training/spr_training.yy",},},
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
