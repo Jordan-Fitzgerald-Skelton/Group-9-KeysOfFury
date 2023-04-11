@@ -1,10 +1,9 @@
-//aligns the timer 
 draw_set_color(c_white);
 draw_set_halign(fa_right);
 //draws the timer 
 draw_text(room_width - 20, room_height - 750, string("Time"));
 draw_text(room_width - 30, room_height - 730, string(time));
-
+//draws the points
 draw_text(room_width - 1250, 20, string("POINTS"))
 draw_text(room_width - 1300, 40, string(points));
 

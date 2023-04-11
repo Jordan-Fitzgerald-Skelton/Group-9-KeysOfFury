@@ -22,7 +22,6 @@ if(keyboard_lastkey == vk_escape){
 	global.canPlayershoot = false;
 	global.canEnemyShoot = true;
 	audio_play_sound(sound_error, 1, false);
-	correct = false;
 	points -=5;
 	index = 0;
 	time--;

@@ -19,14 +19,19 @@ if(keyboard_lastkey == vk_escape){
 
 	//resets the letter that is checked and the time the user has 
 }else{
+	//stops the playert from shooting
 	global.canPlayershoot = false;
+	//allows the enemy to shoot
 	global.canEnemyShoot = true;
+	//plays an error sound
 	audio_play_sound(sound_error, 1, false);
-	correct = false;
+	//takes points from the user
 	points -=5;
+	//resets the inded that is compared to the users input
 	index = 0;
+	//takes a second away from the timer
 	time--;
-	//ends the game
+	//ends the game if the timer = 0 or the player runs out of health 
 	if(time == 0 || global.death = true) {
 		gameOver = true;
 		global.canEnemyShoot = false;

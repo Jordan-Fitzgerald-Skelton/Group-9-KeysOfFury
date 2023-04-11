@@ -2,7 +2,7 @@
 if (loading || gameOver) return;
 //checks if the key pressed by the user = the next letter in the set word
 if(keyboard_lastkey == vk_escape){
-	room_goto(rm_single_menu);
+	room_goto(rm_training_menu);
 }else if(string_lower(string(chr(keyboard_lastkey))) == string_char_at(goal, index + 1)){
 	index++;
 	global.canPlayershoot = true;
@@ -21,7 +21,6 @@ if(keyboard_lastkey == vk_escape){
 }else{
 	global.canEnemyShoot = true;
 	audio_play_sound(sound_error, 1, false);
-	correct = false;
 	points -=5;
 	index = 0;
 	time--;
