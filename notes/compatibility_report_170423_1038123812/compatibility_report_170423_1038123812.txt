@@ -1,0 +1,57 @@
+Converting GML script: hobo_test.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  draw_test()->int
+
+Converting GML script: hobo_test.gml
+Converted description /// @description  fail(val:T)->int/// @param val:T
+
+Converting GML script: hobo_test.gml
+Converted description /// @description  hobo_init()
+
+Converting GML script: hobo_test.gml
+Converted description /// @description  run_hobo_tests()
+
+Converting GML script: hobo_test.gml
+Error: variable 'variable_instance_get' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description  trigger_test()
+
+Converting GML script: hobo_test.gml
+Converted description /// @description  instance_of(val:T, val:T)->bool/// @param val:T
+/// @param  val:T
+
+Converting GML script: hobo_test.gml
+Converted description /// @description  it(val:T, val:T, val:T)-> bool/// @param val:T
+/// @param  val:T
+/// @param  val:T
+
+Converting GML script: hobo_test.gml
+Converted description /// @description  obj_exists(val:T)->int/// @param val:T
+
+Converting GML script: hobo_test.gml
+Converted description /// @description  simulate_mouse_click(mb_left, x, y)/// @param mb_left
+/// @param  x
+/// @param  y
+
+Converting GML script: hobo_test.gml
+Converted description /// @description  run_custom_action()
+
+Converting GML script: hobo_test.gml
+Converted description /// @description  should_be(arg, arg, arg)/// @param arg
+/// @param  arg
+/// @param  arg
+
+Converting GML script: hobo_test.gml
+Converted description /// @description  pass()->int
+
+Converting GML script: hobo_test.gml
+Converted description /// @description  run_test()->int
+
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'

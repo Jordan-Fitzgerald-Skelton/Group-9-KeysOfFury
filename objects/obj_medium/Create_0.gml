@@ -10,3 +10,5 @@ global.canPlayershoot = false;
 global.canEnemyShoot = false;
 alarm[1] = room_speed * 1;
 
+
+

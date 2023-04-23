@@ -1,4 +1,4 @@
-hp = 50;
+hp = 100;
 maxhp = hp;
 flash = 0;
 //health bar dimensions
@@ -8,3 +8,4 @@ healthbar_height = 100;
 healthbar_x = 65;
 healthbar_y = 300;
 global.death = false
+
