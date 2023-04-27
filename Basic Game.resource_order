@@ -30,6 +30,7 @@
     {"name":"mode menu","order":11,"path":"folders/Sprites/mode menu.yy",},
     {"name":"Single_menu","order":5,"path":"folders/Sprites/Single_menu.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
+    {"name":"Dummy","order":5,"path":"folders/Objects/Training/Dummy.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"t_training","order":13,"path":"sprites/t_training/t_training.yy",},
@@ -45,7 +46,6 @@
     {"name":"rm_very_hard","order":3,"path":"rooms/rm_very_hard/rm_very_hard.yy",},
     {"name":"scr_getEasyList","order":1,"path":"scripts/scr_getEasyList/scr_getEasyList.yy",},
     {"name":"rm_mode_menu","order":7,"path":"rooms/rm_mode_menu/rm_mode_menu.yy",},
-    {"name":"obj_Dummy","order":4,"path":"objects/obj_Dummy/obj_Dummy.yy",},
     {"name":"scr_getMediumList","order":2,"path":"scripts/scr_getMediumList/scr_getMediumList.yy",},
     {"name":"obj_training_medium_menu","order":2,"path":"objects/obj_training_medium_menu/obj_training_medium_menu.yy",},
     {"name":"spr_Kar","order":4,"path":"sprites/spr_Kar/spr_Kar.yy",},

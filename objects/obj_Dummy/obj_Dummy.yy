@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Training",
-    "path": "folders/Objects/Training.yy",
+    "name": "Dummy",
+    "path": "folders/Objects/Training/Dummy.yy",
   },
   "parentObjectId": null,
   "persistent": false,
